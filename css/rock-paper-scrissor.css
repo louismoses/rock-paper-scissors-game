@@ -1,0 +1,63 @@
+:root {
+  --color-primary: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* initial view */
+.main-game-initial {
+  display: none;
+}
+.main-game {
+  display: block !important;
+}
+
+.player-box {
+  border: 1px solid;
+  border-radius: 10px;
+  min-height: 70vh;
+  margin: 5vh 0;
+}
+
+.bot-side-el,
+.user-side-el {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  place-content: space-between;
+  gap: 0.2rem;
+  padding: 2rem 1rem;
+}
+
+.button-selections {
+  gap: 0.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bot-choice-el i,
+.user-choice i {
+  font-size: 20vh;
+}
+
+.mid-el {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.winner-bg {
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+.loser-bg {
+  background-color: red;
+  border-radius: 10px;
+}
+.tie-bg {
+  background-color: rgb(192, 192, 192);
+  border-radius: 10px;
+}
